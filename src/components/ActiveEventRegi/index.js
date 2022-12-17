@@ -11,8 +11,8 @@ class ActiveEventRegistrationDetails extends Component {
           src="https://assets.ccbp.in/frontend/react-js/events-register-img.png "
           alt="yet to register"
         />
-        <p>a live performance</p>
-        <button type="button">Register</button>
+        <p>A live performance brings so much to your relationship with dance</p>
+        <button type="button">Register Here</button>
       </div>
     )
   }
@@ -23,7 +23,7 @@ class ActiveEventRegistrationDetails extends Component {
         src="https://assets.ccbp.in/frontend/react-js/events-regestered-img.png "
         alt="registered"
       />
-      <p>you have already registered for the event</p>
+      <h1>You have already registered for the event</h1>
     </div>
   )
 
@@ -31,10 +31,10 @@ class ActiveEventRegistrationDetails extends Component {
     <div className="stat">
       <img
         src="https://assets.ccbp.in/frontend/react-js/events-registrations-closed-img.png"
-        alt="registrations-closed"
+        alt="registrations closed"
       />
-      <p>registrations are closed now</p>
-      <p>stay tuned </p>
+      <h1>Registrations Are Closed Now!</h1>
+      <p>Stay tuned. We will reopen </p>
     </div>
   )
 

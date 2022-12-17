@@ -87,7 +87,7 @@ class Events extends Component {
             <ActiveEventRegistrationDetails regiStatus={regiStatus} />
           )}
           {!isClicked && (
-            <p>Click on an event,to view its registration details</p>
+            <p>Click on an event, to view its registration details</p>
           )}
         </div>
       </div>

@@ -10,8 +10,9 @@ const EventItem = props => {
   }
   return (
     <li className="card" onClick={onClickCard}>
-      <img src={imageUrl} alt={name} />
-      <h1>{name}</h1>
+      <img src={imageUrl} alt="event" />
+
+      <p>{name}</p>
       <p>{location}</p>
     </li>
   )
